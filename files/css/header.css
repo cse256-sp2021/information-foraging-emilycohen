@@ -15,6 +15,13 @@ header {
     background-color: #3d3d3d;
 }
 
+/* referred to https://www.w3schools.com/howto/howto_js_sticky_header.asp, as directed in the wiki */
+.sticky {
+    position: fixed;
+    top: 100px;
+    width: 100%
+  }
+
 .container {
     width: 92%;
     max-width: 71em;

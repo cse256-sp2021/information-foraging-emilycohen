@@ -107,11 +107,11 @@ article h2 {
 }
 
 #left-header{
-    font-size:2em;
+    font-size:1em;
 }
 
 #right-header{
-    font-size:2em;
+    font-size:1em;
 }
 main hr {
     border: none;
@@ -142,4 +142,11 @@ main hr {
 {
     font-size: .92em;
     margin-top: -15px;
+}
+
+#index_top
+{
+    margin-top: -30px;
+    text-align: center;
+    font-size:1.2em
 }

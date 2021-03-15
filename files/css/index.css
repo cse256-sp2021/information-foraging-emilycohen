@@ -109,8 +109,37 @@ article h2 {
 #left-header{
     font-size:2em;
 }
+
+#right-header{
+    font-size:2em;
+}
 main hr {
     border: none;
     background-color: #eee;
     height: 1px;
+}
+
+#news_stuff
+{
+    font-size: 1em;
+    display: inline;
+    margin-left: -18px;
+    padding-left: -10px;
+}
+
+.inner_bullet
+{
+    margin-left: 30px;
+}
+
+#classes_news
+{
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
+#details
+{
+    font-size: .92em;
+    margin-top: -15px;
 }

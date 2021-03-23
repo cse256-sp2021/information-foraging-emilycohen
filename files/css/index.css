@@ -123,18 +123,19 @@ main hr {
 {
     font-size: 1em;
     display: inline;
-    margin-left: -18px;
+    margin-left: 5px;
     padding-left: -10px;
 }
 
 .inner_bullet
 {
-    margin-left: 30px;
+    margin-left:18px;
+    padding-left: -10px;
 }
 
 #classes_news
 {
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: -15px;
 }
 

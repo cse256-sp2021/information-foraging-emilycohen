@@ -1,8 +1,6 @@
 export function setupSticky() {
     // TODO: Copy and paste your sticky code in here!!
-    
-    setupHeader();
-    
+        
     window.onscroll = function() {setupHeader()};
    
     document.getElementById("mturk-top-banner-drop-down-button").addEventListener("click", setupHeader);
@@ -17,9 +15,6 @@ export function setupSticky() {
     var sticky = header.offsetTop;
 
     function setupHeader() {
-    // if (window.pageYOffset > sticky && butt.className == "fa fa-chevron-down none") 
-    // console.log(butt.classList.contains("display"))
-    console.log("OFFSET" + window.pageYOffset);
 
     if (window.pageYOffset > sticky && (butt.classList.contains("none"))){
         header.classList.add("stickyBanner");
@@ -28,8 +23,6 @@ export function setupSticky() {
     } 
      if (window.pageYOffset > sticky && (butt.classList.contains("display")))
     {
-            // else if (window.pageYOffset > sticky && butt.className == "fa fa-chevron-down display")
-
         header.classList.add("sticky"); 
         header.classList.remove("stickyBanner");
         // console.log(butt.className)
@@ -41,11 +34,11 @@ export function setupSticky() {
         header.classList.remove("stickyBanner");
 
     }
-    //  if (window.pageYOffset <= sticky && (butt.classList.contains("none")))
-    // {
-    //     header.classList.add("stickyBanner");
-    //     header.classList.remove("sticky"); 
-    //     console.log("OPEN2")
-    // }
+     if (window.pageYOffset <= sticky && (butt.classList.contains("none")))
+    {
+        header.classList.add("stickyBanner");
+        header.classList.remove("sticky"); 
+        // console.log("OPEN2")
+    }
 }
  }

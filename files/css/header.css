@@ -18,7 +18,8 @@ header {
 /* referred to https://www.w3schools.com/howto/howto_js_sticky_header.asp, as directed in the wiki */
 .sticky {
     position: fixed;
-    top: 43px;
+    top: 0px;
+    margin-top:43px;
     width: 100%;
   }
 
@@ -26,7 +27,8 @@ header {
  .stickyBanner
  {
     position: fixed;
-    top: 363px;
+    top:0px;
+    margin-top: 363px;
     width: 100%;
  } 
 

@@ -19,8 +19,17 @@ header {
 .sticky {
     position: fixed;
     top: 43px;
-    width: 100%
+    width: 100%;
   }
+
+
+ .stickyBanner
+ {
+    position: fixed;
+    top: 363px;
+    width: 100%;
+ } 
+
 
 .container {
     width: 92%;
